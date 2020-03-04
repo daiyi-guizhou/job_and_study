@@ -45,7 +45,8 @@ isort
  -s SKIP, --skip SKIP  Files that sort imports should skip over. If you want
                         to skip multiple files you should specify twice:
                         --skip file1 --skip file2.
-```
+			
+			
 sort 同样也可以用配置文件
 Configuring isort
 If you find the default isort settings do not work well for your project, isort provides several ways to adjust the behavior.
