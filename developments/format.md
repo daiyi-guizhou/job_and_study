@@ -28,6 +28,18 @@ isort --skip services/conf.tmpl -rc .
 yamf
 Excluding files from formatting (.yapfignore)
 In addition to exclude patterns provided on commandline, YAPF looks for additional patterns specified in a file named .yapfignore located in the working directory from which YAPF is invoked.
+
+举例，添加一个 `.yapfignore`文件，内容如下，他就能忽略这两个文件了。
+```
+db_pre_handler/conf.tmpl
+db_post_handler/conf.tmpl
+```
+`.yapfignore`也支持正则，  下面这个和上面等效。
+```
+*/conf.tmpl
+```
+
+
 _____________
 isort 
  -s SKIP, --skip SKIP  Files that sort imports should skip over. If you want
