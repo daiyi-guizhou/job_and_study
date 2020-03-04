@@ -22,7 +22,7 @@ isort -rc .
 (如何忽略掉 某些 文件 或 目录.)
 yapf --exclude services/conf.tmpl -p -i -r .
 isort --skip services/conf.tmpl -rc .
-
+```
 
 (如果需要忽略多个文件)
 yamf
