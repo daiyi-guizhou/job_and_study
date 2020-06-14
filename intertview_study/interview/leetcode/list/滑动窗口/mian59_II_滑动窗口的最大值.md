@@ -1,6 +1,6 @@
 **要求函数max_value、push_back 和 pop_front 的均摊时间复杂度都是O(1)**
 **辅助队列来记录最大值**， deque
-
+from collections import deque
 <!-- TOC -->
 
 - [question](#question)
