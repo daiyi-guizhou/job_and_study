@@ -3,7 +3,7 @@
 
 - [question](#question)
 - [solution](#solution)
-    - [回溯 递归](#%E5%9B%9E%E6%BA%AF-%E9%80%92%E5%BD%92)
+    - [递归](#%E9%80%92%E5%BD%92)
     - [动态规划](#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92)
 
 <!-- /TOC -->
@@ -51,7 +51,7 @@ p 可能为空，且只包含从 a-z 的小写字母以及字符 . 和 *�
 
 ## solution
 
-### 回溯 递归
+### 递归
 
 首先，我们考虑只有 '.' 的情况。这种情况会很简单：我们只需要从左到右依次判断 s[i] 和 p[i] 是否匹配。
 
@@ -70,7 +70,7 @@ class Solution(object):
         if not s and len(p) == 1: return False
         _first_match = bool(s and p[0] in {s[0],'.'})
         if len(p) >= 2 and p[1] == '*':
-            return self.isMatch(s,p[2:]) or _first_match and self.isMatch(s[1:],p)
+            return self.isMatch(s,p[2:]) or _first_match and self.isMatch(s[1:],p)  ## 继续匹配 0 个到 多个。
         else:
             return _first_match and self.isMatch(s[1:],p[1:])
 
