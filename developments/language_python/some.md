@@ -6,7 +6,7 @@
 - [把 一些常用的  处理  写成 标准函数，  以后直接引用 就可以了，](#把-一些常用的--处理--写成-标准函数--以后直接引用-就可以了)
 - [类库地址](#类库地址)
 - [装饰器](#装饰器)
-- [parser.parseargs()](#parserparseargs)
+- [parser.parse_args()](#parserparse_args)
 
 <!-- /TOC -->
 
@@ -84,7 +84,7 @@ args=(sys.stdout,)
 format=%(asctime)s - %(process)s - %(name)s - %(module)s.%(funcName)s:%(lineno)s - %(levelname)s - %(message)s
 ```
 
-```			
+```py		
 # !/home/tops/bin/python
 # -*- coding:utf-8 -*-
 
