@@ -1,4 +1,14 @@
-﻿
+﻿<!-- TOC -->
+
+- [给函数参数增加元信息](#给函数参数增加元信息)
+- [断点](#断点)
+- [断言](#断言)
+- [log](#log)
+- [whl 安装](#whl-安装)
+- [把函数当参数传递](#把函数当参数传递)
+
+<!-- /TOC -->
+
 官方文档(https://docs.python.org/zh-cn/3/library/typing.html)
 cookbook(https://python3-cookbook.readthedocs.io/zh_CN/latest/c07/p03_attach_informatinal_matadata_to_function_arguments.html)
 

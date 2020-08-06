@@ -1,4 +1,11 @@
-﻿参考链接(https://www.kawabangga.com/posts/2245)
+﻿<!-- TOC -->
+
+- [理解Python的UnboundLocalError（Python的作用域）](#理解python的unboundlocalerrorpython的作用域)
+        - [解决方法](#解决方法)
+
+<!-- /TOC -->
+
+参考链接(https://www.kawabangga.com/posts/2245)
 # 理解Python的UnboundLocalError（Python的作用域）
 今天写代码碰到一个百思不得解为什么会出错的代码，简化如下：
 
